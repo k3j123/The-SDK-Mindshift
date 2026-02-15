@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.jokesdk.DadJokeClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-15T16:18:35.491Z" hostname="Michaels-MacBook-Air.local" time="0.303">
+  <properties/>
+  <testcase name="test fetch joke returns success" classname="com.example.jokesdk.DadJokeClientTest" time="0.301"/>
+  <system-out><![CDATA[Fetched Joke: Every night at 11:11, I make a wish that someone will come fix my broken clock.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml:4:22-64
+uses-sdk
+INJECTED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zerotwo/Projects/DadJokeSDK/joke-sdk/src/main/AndroidManifest.xml
