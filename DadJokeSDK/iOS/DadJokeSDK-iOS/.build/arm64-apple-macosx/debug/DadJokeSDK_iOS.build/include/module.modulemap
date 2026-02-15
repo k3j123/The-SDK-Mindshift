@@ -1,0 +1,3 @@
+module DadJokeSDK_iOS {
+    header "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/include/DadJokeSDK-iOS-Swift.h"
+}

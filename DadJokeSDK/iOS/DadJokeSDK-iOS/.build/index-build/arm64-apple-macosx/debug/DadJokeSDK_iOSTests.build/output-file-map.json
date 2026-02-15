@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/master.swiftdeps"
+  },
+  "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Tests/DadJokeSDK-iOSTests/DadJokeSDK_iOSTests.swift": {
+    "dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/DadJokeSDK_iOSTests.d",
+    "object": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/DadJokeSDK_iOSTests.swift.o",
+    "swiftmodule": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/DadJokeSDK_iOSTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/DadJokeSDK_iOSTests.swiftdeps",
+    "diagnostics": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/DadJokeSDK_iOSTests.dia"
+  }
+}

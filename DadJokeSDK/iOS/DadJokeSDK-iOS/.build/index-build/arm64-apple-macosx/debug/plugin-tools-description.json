@@ -1,0 +1,641 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK-iOSPackageTests.xctest/Contents/MacOS/DadJokeSDK-iOSPackageTests",
+      "packagePath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS",
+      "productName" : "DadJokeSDK-iOSPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.DadJokeSDK-iOS-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/sources",
+      "importPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeSDK_iOS.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DadJokeSDK_iOS",
+      "moduleOutputPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOS.swiftmodule",
+      "objects" : [
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeClient.swift.o",
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeSDK_iOS.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/include/DadJokeSDK-iOS-Swift.h",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "dadjokesdk_ios"
+      ],
+      "outputFileMapPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOS.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeClient.swift",
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeSDK_iOS.swift"
+      ],
+      "tempsPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DadJokeSDK-iOSPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/sources",
+      "importPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK-iOSPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOSTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DadJokeSDK_iOSPackageTests",
+      "moduleOutputPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOSPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/include/DadJokeSDK-iOSPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "dadjokesdk_ios"
+      ],
+      "outputFileMapPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOSPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK-iOSPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DadJokeSDK-iOSTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/sources",
+      "importPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Tests/DadJokeSDK-iOSTests/DadJokeSDK_iOSTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOS.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DadJokeSDK_iOSTests",
+      "moduleOutputPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOSTests.swiftmodule",
+      "objects" : [
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/DadJokeSDK_iOSTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "dadjokesdk_ios"
+      ],
+      "outputFileMapPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules/DadJokeSDK_iOSTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Tests/DadJokeSDK-iOSTests/DadJokeSDK_iOSTests.swift"
+      ],
+      "tempsPath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "DadJokeSDK_iOS" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DadJokeSDK_iOS",
+      "-package-name",
+      "dadjokesdk_ios",
+      "-c",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeClient.swift",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeSDK_iOS.swift",
+      "-I",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/include/DadJokeSDK-iOS-Swift.h",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "dadjokesdk_ios",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DadJokeSDK_iOSPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DadJokeSDK_iOSPackageTests",
+      "-package-name",
+      "dadjokesdk_ios",
+      "-c",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK-iOSPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/include/DadJokeSDK-iOSPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "dadjokesdk_ios",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DadJokeSDK_iOSTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DadJokeSDK_iOSTests",
+      "-package-name",
+      "dadjokesdk_ios",
+      "-c",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Tests/DadJokeSDK-iOSTests/DadJokeSDK_iOSTests.swift",
+      "-I",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "dadjokesdk_ios",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "DadJokeSDK_iOS" : [
+
+    ],
+    "DadJokeSDK_iOSPackageTests" : [
+      "DadJokeSDK_iOSTests",
+      "DadJokeSDK_iOS"
+    ],
+    "DadJokeSDK_iOSTests" : [
+      "DadJokeSDK_iOS"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeSDK_iOS.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/sources"
+    },
+    "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK-iOSPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSPackageTests.build/sources"
+    },
+    "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Tests/DadJokeSDK-iOSTests/DadJokeSDK_iOSTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOSTests.build/sources"
+    },
+    "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/master.swiftdeps"
+  },
+  "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeClient.swift": {
+    "dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeClient.d",
+    "object": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeClient.swift.o",
+    "swiftmodule": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeClient.swiftdeps",
+    "diagnostics": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeClient.dia"
+  },
+  "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/Sources/DadJokeSDK-iOS/DadJokeSDK_iOS.swift": {
+    "dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeSDK_iOS.d",
+    "object": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeSDK_iOS.swift.o",
+    "swiftmodule": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeSDK_iOS~partial.swiftmodule",
+    "swift-dependencies": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeSDK_iOS.swiftdeps",
+    "diagnostics": "/Users/zerotwo/Projects/The-SDK-Mindshift/DadJokeSDK/DadJokeSDK-iOS/.build/index-build/arm64-apple-macosx/debug/DadJokeSDK_iOS.build/DadJokeSDK_iOS.dia"
+  }
+}
